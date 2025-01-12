@@ -64,7 +64,7 @@ export const publicationData: Publication[] = [
     codeUrl: "https://github.com/xplip/pixel",
     // tldr: "TODO",
     // imageUrl: "TODO",
-    award: "Notable-top-5% (Oral)",
+    award: "⭐ Notable-top-5% (Oral)",
   },
   {
     year: "2023",
