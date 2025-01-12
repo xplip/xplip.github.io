@@ -10,7 +10,6 @@ export interface Publication {
   imageUrl?: string;
   award?: string;
 }
-
 export const publicationData: Publication[] = [
   {
     year: "2024",
@@ -20,7 +19,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2402.09611",
     codeUrl: "https://github.com/facebookresearch/ssvp_slt",
     // tldr: "TODO",
-    // imageUrl: "TODO",
+    // imageUrl: "/images/ssvp_slt.png",
     // award: "TODO",
   },
   {

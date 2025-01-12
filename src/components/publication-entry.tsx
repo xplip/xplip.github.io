@@ -1,12 +1,18 @@
-import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
 import { Publication } from "@/data/publication";
+import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 
 export function PublicationEntry({
   publication,
+  name,
 }: {
   publication: Publication;
+  name: string;
 }) {
+  const highlightedAuthors = publication.authors.replace(
+    new RegExp(`\\b${name}\\b`, "g"),
+    `<u>${name}</u>`
+  );
   return (
     <div className="flex flex-col sm:flex-row gap-6">
       {publication.imageUrl && (
@@ -35,7 +41,10 @@ export function PublicationEntry({
           )}
         </div>
         <h3 className="font-serif text-md mb-3">{publication.title}</h3>
-        <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
+        <p
+          className="text-sm text-zinc-600 mb-4"
+          dangerouslySetInnerHTML={{ __html: highlightedAuthors }}
+        ></p>
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
             <a

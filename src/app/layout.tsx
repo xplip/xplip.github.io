@@ -1,8 +1,8 @@
+import { aboutMe } from "@/data/aboutme";
+import { customMetadata } from "@/data/title-description";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Serif, PT_Serif } from "next/font/google";
 import "./globals.css";
-import { aboutMe } from "@/data/aboutme";
-import { customMetadata } from "@/data/title-description";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -51,9 +51,15 @@ export default function RootLayout({
                 © {new Date().getFullYear()} {aboutMe.name}.
               </p>
               {aboutMe.secretDescription && (
-                <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-4">
-                  {aboutMe.secretDescription}
-                </p>
+                <div className="mt-4">
+                  <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-4">
+                    {aboutMe.secretDescription} <img 
+                    src="/images/maxwell.gif" 
+                    alt="Maxwell animation" 
+                    className="inline-block w-12 h-12 mr-2 align-middle" 
+                  />
+                  </p>
+                </div>
               )}
             </div>
             <div className="mb-4">
