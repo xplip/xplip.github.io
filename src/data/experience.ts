@@ -27,7 +27,7 @@ export const experienceData: Experience[] = [
     description:
       "Research on self-supervised video pretraining for large-scale sign language translation.",
     manager: "Jean Maillard",
-    companyUrl: "https://google.com",
+    companyUrl: "https://ai.meta.com/research/",
     location: "Menlo Park, USA"
   },
 ];
