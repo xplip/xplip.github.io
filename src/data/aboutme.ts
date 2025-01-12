@@ -35,5 +35,5 @@ export const aboutMe: AboutMe = {
   cvUrl: "/pdfs/phillip_rust_resume_jan25.pdf",
   institutionUrl: "https://di.ku.dk/english/research/nlp/",
   // altName: "",
-  secretDescription: "Big fan of cats and capybaras",
+  secretDescription: "\"meow meow meow meow\" - maxwell",
 };

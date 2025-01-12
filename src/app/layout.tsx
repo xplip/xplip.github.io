@@ -55,8 +55,8 @@ export default function RootLayout({
               {aboutMe.secretDescription && (
                 <div className="mt-4">
                   <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-4">
-                    {aboutMe.secretDescription} 
-                    <Image 
+                  <span><i>{aboutMe.secretDescription.split('-')[0].trim()}</i></span> - {aboutMe.secretDescription.split('-')[1].trim()}
+                  <Image 
                       src="/images/maxwell.gif"
                       alt="Maxwell cat rotating"
                       width={48} // equivalent to w-12 (12 * 4px)
