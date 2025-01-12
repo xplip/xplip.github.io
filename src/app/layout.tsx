@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { aboutMe } from "@/data/aboutme";
 import { customMetadata } from "@/data/title-description";
 import type { Metadata } from "next";
@@ -53,11 +55,14 @@ export default function RootLayout({
               {aboutMe.secretDescription && (
                 <div className="mt-4">
                   <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-4">
-                    {aboutMe.secretDescription} <img 
-                    src="/images/maxwell.gif" 
-                    alt="Maxwell animation" 
-                    className="inline-block w-12 h-12 mr-2 align-middle" 
-                  />
+                    {aboutMe.secretDescription} 
+                    <Image 
+                      src="/images/maxwell.gif"
+                      alt="Maxwell cat rotating"
+                      width={48} // equivalent to w-12 (12 * 4px)
+                      height={48} // equivalent to h-12 (12 * 4px)
+                      className="inline-block mr-2 align-middle"
+                    />
                   </p>
                 </div>
               )}
