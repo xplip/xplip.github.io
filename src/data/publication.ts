@@ -72,7 +72,7 @@ export const publicationData: Publication[] = [
     title: "Differential Privacy, Linguistic Fairness, and Training Data Influence: Impossibility and Possibility Theorems for Multilingual Language Models",
     authors: "Phillip Rust, Anders Søgaard",
     paperUrl: "https://proceedings.mlr.press/v202/rust23a.html",
-    // codeUrl: "TODO",
+    codeUrl: "https://github.com/xplip/multilingual-lm-objectives",
     // tldr: "TODO",
     // imageUrl: "TODO",
     // award: "TODO",
