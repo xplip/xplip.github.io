@@ -12,6 +12,17 @@ export interface Publication {
 }
 export const publicationData: Publication[] = [
   {
+    year: "2025",
+    conference: "preprint",
+    title: "Evaluating Multimodal Language Models as Visual Assistants for Visually Impaired Users",
+    authors: "Antonia Karamolegkou, Malvina Nikandrou, Georgios Pantazopoulos, Danae Sanchez Villegas, Phillip Rust, Ruchira Dhar, Daniel Hershcovich, Anders Søgaard",
+    paperUrl: "https://arxiv.org/abs/2503.22610",
+    codeUrl: "https://github.com/MalvinaNikandrou/visual-assistant-eval",
+    // tldr: "TODO",
+    // imageUrl: "/images/ssvp_slt.png",
+    // award: "TODO",
+  },
+  {
     year: "2024",
     conference: "ACL",
     title: "Towards Privacy-Aware Sign Language Translation at Scale",
