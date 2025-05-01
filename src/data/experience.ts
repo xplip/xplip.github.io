@@ -15,7 +15,7 @@ export const experienceData: Experience[] = [
     title: "Applied Scientist Intern",
     company: "Amazon AGI",
     description:
-      "Post-training for Amazon Nova Speech-to-Speech. Research on modular and multi-objective preference optimization for conversational speech in multimodal LLMs.",
+      "Post-training for Amazon Nova Sonic. Research on modular and multi-objective preference optimization for conversational speech in multimodal LLMs.",
     manager: "Marius Cotescu",
     companyUrl: "https://www.amazon.science/",
     location: "Cambridge, UK"
