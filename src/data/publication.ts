@@ -13,7 +13,7 @@ export interface Publication {
 export const publicationData: Publication[] = [
   {
     year: "2025",
-    conference: "preprint",
+    conference: "ACL",
     title: "Evaluating Multimodal Language Models as Visual Assistants for Visually Impaired Users",
     authors: "Antonia Karamolegkou, Malvina Nikandrou, Georgios Pantazopoulos, Danae Sanchez Villegas, Phillip Rust, Ruchira Dhar, Daniel Hershcovich, Anders Søgaard",
     paperUrl: "https://arxiv.org/abs/2503.22610",
