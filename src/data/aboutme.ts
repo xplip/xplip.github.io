@@ -32,7 +32,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "phillip-rust",
   twitterUsername: "rust_phillip",
   // blogUrl: "https://",
-  cvUrl: "/pdfs/phillip_rust_resume_jan25.pdf",
+  cvUrl: "/pdfs/phillip_rust_resume_may25.pdf",
   institutionUrl: "https://di.ku.dk/english/research/nlp/",
   // altName: "",
   secretDescription: "\"meow meow meow meow\" - maxwell",
